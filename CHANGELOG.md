@@ -43,6 +43,8 @@ All notable changes to Sourcegraph are documented in this file.
 - Site admins can now see when users of their Sourcegraph instance last used it via a code host integration (e.g. Sourcegraph browser extensions). Visit the site admin Analytics page (e.g. https://sourcegraph.example.com/site-admin/analytics) to view this information.
 - A new site config option `extensions.allowRemoteExtensions` lets you explicitly specify the remote extensions (from, e.g., Sourcegraph.com) that are allowed.
 - Pings now include a total count of user accounts.
+- A new site config option `extensions.remoteWhitelist` allows you to whitelist extensions inherited from the remote registry (e.g. Sourcegraph.com).
+- The Sourcegraph Docker image is now built with indexed searched enabled.
 
 ### Fixed
 
