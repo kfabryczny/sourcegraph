@@ -13,6 +13,10 @@ All notable changes to Sourcegraph are documented in this file.
 
 - The `experimentalFeatures.canonicalURLRedirect` site config property now defaults to `enabled`. Set it to `disabled` to disable redirection to the `appURL` from other hosts.
 
+### Fixed
+
+- The user account sidebar "Password" link (to the change-password form) is now shown correctly.
+
 ### Removed
 
 - The experimental feature flag to disable the new repo update scheduler has been removed.
