@@ -237,7 +237,7 @@ export class RepoContainer extends React.Component<RepoContainerProps, RepoRevCo
                             key="go-to-code-host"
                             repo={this.state.repoOrError}
                             // We need a rev to generate code host URLs, since we don't have a default use HEAD.
-                            rev={this.state.rev || 'HEAD'}
+                            rev={this.state.rev || 'master'}
                             filePath={filePath}
                             commitRange={commitRange}
                             position={position}
