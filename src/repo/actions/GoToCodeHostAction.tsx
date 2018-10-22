@@ -105,7 +105,7 @@ export class GoToCodeHostAction extends React.PureComponent<Props, State> {
         let url = externalURL.url
         if (externalURL.serviceType === 'github') {
             // If in a branch, add branch path to the GitHub URL.
-            if (this.props.rev && this.props.rev !== 'HEAD' && !this.state.fileExternalLinksOrError) {
+            if (this.props.rev && this.props.rev !== 'master' && !this.state.fileExternalLinksOrError) {
                 url += `/tree/${this.props.rev}`
             }
             // If showing a comparison, add comparison specifier to the GitHub URL.
